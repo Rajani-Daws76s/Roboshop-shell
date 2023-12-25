@@ -7,7 +7,7 @@ for i in ${INSTANCES[@]}
 do 
   echo "instance : $i"
   if [ $i == "mongodb"] || [ $i == "shipping"] || [ $i == "mysql"]
-  the 
+  then
   INSTANCE_TYPE=t3.medium
   else
   INSTANCE_TYPE=t2.micro
